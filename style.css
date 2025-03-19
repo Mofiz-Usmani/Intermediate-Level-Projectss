@@ -1,0 +1,35 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* background-color: #f4f4f4; */
+    background-image: url("bgimage.jpg");
+    background-size: cover;
+    color: #333;
+    /* text-align: center; */
+}
+
+header {
+    /* background-color: #333; */
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+} */
