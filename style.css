@@ -18,23 +18,13 @@ header {
     padding: 20px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 10px;
-    text-align: right;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.nav {
-    margin-top: 0px;
+.name {
+    justify-content: center;
+    align-items: center;
 }
