@@ -5,9 +5,6 @@ body, h1, h2, p, ul {
 }
 
 body {
-    /* background-color: #f4f4f4; */
-    background-image: url("bgimage.jpg");
-    background-size: cover;
     color: #333;
     /* text-align: center; */
 }
