@@ -8,7 +8,9 @@ header {
     margin-top: -12px;
 }
 
-.body {
+.img {
+    height: 700px;
+    width: 100%;
     background-image: url("img.jpg");
     background-size: cover;
 }
@@ -18,7 +20,7 @@ header {
     align-items: center;
     height: 70px;
     width: 100%;
-    background-color: rgb(237, 215, 237);
+    background-color: rgb(255, 255, 255);
 }
 
 .nav {
