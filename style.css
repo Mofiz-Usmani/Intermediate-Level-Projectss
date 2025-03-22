@@ -8,14 +8,17 @@ header {
     margin-top: -12px;
 }
 
-
+.body {
+    background-image: url("img.jpg");
+    background-size: cover;
+}
 
 .name {
     display: flex;
     align-items: center;
     height: 70px;
     width: 100%;
-    background-color: rgb(239, 183, 239);
+    background-color: rgb(237, 215, 237);
 }
 
 .nav {
