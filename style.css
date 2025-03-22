@@ -8,9 +8,14 @@ header {
     margin-top: -12px;
 }
 
+
+
 .name {
     display: flex;
     align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: violet;
 }
 
 .nav {
