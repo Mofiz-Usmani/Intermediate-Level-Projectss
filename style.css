@@ -1,45 +1,123 @@
-header {
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
     display: flex;
-    justify-content: space-between; /* Push elements to opposite sides */
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    background-color: white;
-    margin-left: 20px;
-    margin-top: -12px;
-}
-
-.img {
-    height: 700px;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
     width: 100%;
-    background-image: url("img.jpg");
-    background-size: cover;
+    top: 0;
+    z-index: 1000;
 }
 
-.name {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-
-.nav {
-    flex-grow: 1; /* Allows navigation to take full space */
-    display: flex;
+.logo h1 {
+    font-size: 24px;
+    color: #333;
 }
 
 .nav ul {
-    display: flex;
     list-style: none;
-    margin-left: 400px; /* Pushes the navigation to the left end */
+    display: flex;
 }
 
 .nav ul li {
-    margin-right: 15px; /* Spacing between menu items */
+    margin: 0 15px;
 }
 
 .nav ul li a {
-    color: rgb(0, 0, 0);
     text-decoration: none;
+    color: #333;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #e91e63;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slideAnimation 9s infinite;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    width: 250px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service i {
+    font-size: 40px;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
 }
