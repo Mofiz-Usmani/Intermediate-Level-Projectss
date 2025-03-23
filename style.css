@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header */
@@ -38,9 +38,38 @@
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    transition: color 0.3s ease;
+    /* transition: color 0.3s ease; */
 }
 
 .nav ul li a:hover {
     color: #e91e63;
 }
+
+.img {
+    background: url('newimg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    color: white; /* Text color */
+    text-align: center;
+  
+}
+
+.img h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    bottom: 200px;  /* Adjust as needed */
+    right: 1000px;   /* Adjust as needed */
+    color: rgb(0, 17, 73);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
