@@ -64,10 +64,10 @@
 
 .text {
     height: 100px;
-    width: 400px;
+    width: 500px;
     position: absolute;
     bottom: 200px;  /* Adjust as needed */
-    right: 1000px;   /* Adjust as needed */
+    right: 940px;   /* Adjust as needed */
     color: rgb(0, 17, 73);
     font-size: 15px;
     padding: 10px;
