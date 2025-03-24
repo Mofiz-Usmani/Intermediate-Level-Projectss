@@ -22,7 +22,7 @@
 
 .logo h1 {
     font-size: 24px;
-    color: #333;
+    color: rgb(0, 17, 73);
 }
 
 .nav ul {
@@ -36,9 +36,8 @@
 
 .nav ul li a {
     text-decoration: none;
-    color: #333;
     font-weight: bold;
-    /* transition: color 0.3s ease; */
+    color: rgb(0, 17, 73);
 }
 
 .nav ul li a:hover {
@@ -104,4 +103,10 @@
     color: rgb(0, 17, 73);
     font-size: 15px;
     font-weight: 400;
+ }
+
+ .best h2 {
+    color: rgb(0, 17, 73);
+    font-size: 35px;
+    font-weight: 600;
  }
