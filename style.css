@@ -91,3 +91,9 @@
     background-color: rgb(0, 17, 73);
     color: white;
   }
+
+  .best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
