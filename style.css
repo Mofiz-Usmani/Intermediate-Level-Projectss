@@ -73,6 +73,21 @@
     font-weight: 400;
 }
 
+#btn {
+    height: 35px;
+    width: 100px;
+    border: 2px solid rgb(0, 17, 73);
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #333;
+    background-color: rgb(209, 227, 248);
+    /* margin-right: px; */
+    margin-left: 120px;
+    margin-top: 19px;
+}
+
 #login {
     height: 28px;
     width: 70px;
