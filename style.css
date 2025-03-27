@@ -74,18 +74,20 @@
 }
 
 #btn {
-    height: 35px;
-    width: 100px;
-    border: 2px solid rgb(0, 17, 73);
+    height: 55px;
+    width: 180px;
+    background-color: #001149; /* Deep Blue */
+    color: white;
+    border: none;
     border-radius: 30px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     font-weight: bold;
-    color: #333;
-    background-color: rgb(209, 227, 248);
-    /* margin-right: px; */
-    margin-left: 120px;
-    margin-top: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    left: 50%;
+    margin-left: 7em;
+    margin-bottom: 7em;
 }
 
 #login {
