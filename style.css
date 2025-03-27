@@ -121,13 +121,18 @@
 }
 
 .card {
-    background: rgb(241, 246, 247);
+    background: rgb(215, 238, 251);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
     text-align: center;
     flex: 1;
     max-width: 270px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: scale(1.05); 
 }
 
 .card img {
@@ -163,21 +168,45 @@
     background: rgb(92, 92, 240);
 }
 
-.services {
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+#services-head{
+    text-align: center;
+    color: rgb(0, 17, 73);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
 .services-box {
     height: 130px;
     width: 480px;
-    background: rgb(241, 246, 247);
+    background: rgb(215, 238, 251);
     border-radius: 15px;
-    border: 1px solid rgb(0, 17, 73);
     text-align: center;
     padding: 20px;
+    margin: 40px;
+    color: rgb(0, 17, 73);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.services-box h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.services-box p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.services-box:hover {
+    transform: scale(1.05);
 }
