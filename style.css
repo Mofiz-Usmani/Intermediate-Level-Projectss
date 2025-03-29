@@ -22,7 +22,7 @@
 
 .logo h1 {
     font-size: 24px;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
 }
 
 .nav ul {
@@ -37,7 +37,7 @@
 .nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
 }
 
 .nav ul li a:hover {
@@ -45,14 +45,16 @@
 }
 
 .img {
-    background: url('newimg.jpg') no-repeat center center/cover;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
-    color: white;
-    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 760px; /* Adjust as needed */
+    padding: 20px;
+}
+
+img {
+    border-radius: 20px;
+    width: 300px;
 }
 
 .img h1 {
@@ -66,7 +68,7 @@
     position: absolute;
     bottom: 200px;
     right: 940px;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 15px;
     padding: 10px;
     border-radius: 5px;
@@ -76,7 +78,7 @@
 #btn {
     height: 50px;
     width: 170px;
-    background-color: #001149; /* Deep Blue */
+    background-color: rgb(25, 102, 173); /* Deep Blue */
     color: white;
     border: none;
     border-radius: 30px;
@@ -93,7 +95,7 @@
 #login {
     height: 28px;
     width: 70px;
-    border: 2px solid rgb(0, 17, 73);
+    border: 2px solid rgb(25, 102, 173);
     border-radius: 30px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -103,7 +105,7 @@
 }
 
 #login:hover {
-    background-color: rgb(0, 17, 73);
+    background-color: rgb(25, 102, 173);
     color: white;
 }
 
@@ -116,13 +118,13 @@
 }
 
 .best-text p {
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 15px;
     font-weight: 400;
 }
 
 .best h2 {
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 35px;
     font-weight: 600;
 }
@@ -162,17 +164,17 @@
 .card h3 {
     margin: 10px 0;
     font-size: 18px;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
 }
 
 .card p {
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 14px;
     font-weight: 500;
 }
 
 .card button {
-    background-color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     color: rgb(255, 255, 255);
     padding: 8px 12px;
     border: none;
@@ -187,7 +189,7 @@
 
 #services-head{
     text-align: center;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 35px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -201,7 +203,7 @@
     text-align: center;
     padding: 20px;
     margin: 40px;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -241,7 +243,7 @@
 
 .category h2 {
     text-align: center;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 35px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -357,7 +359,7 @@
 
 .heading {
     text-align: center;
-    color: rgb(0, 17, 73);
+    color: rgb(25, 102, 173);
     font-size: 22px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -398,3 +400,21 @@
     border: 1px solid gray;
     padding-left: 10px;
 }
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 500px; /* Adjust as needed */
+}
+
+.search button {
+    height: 28px;
+    width: 70px;
+    position: absolute;
+    right: 5px;
+    border-radius: 13px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(25, 102, 173);
+  }
